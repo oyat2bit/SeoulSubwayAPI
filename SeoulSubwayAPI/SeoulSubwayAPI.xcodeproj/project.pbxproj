@@ -19,6 +19,7 @@
 		FF0A9E112846EACB004CEC37 /* SeoulSubwayAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A9E102846EACB004CEC37 /* SeoulSubwayAPITests.swift */; };
 		FF0A9E1B2846EACB004CEC37 /* SeoulSubwayAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A9E1A2846EACB004CEC37 /* SeoulSubwayAPIUITests.swift */; };
 		FF0A9E1D2846EACB004CEC37 /* SeoulSubwayAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A9E1C2846EACB004CEC37 /* SeoulSubwayAPIUITestsLaunchTests.swift */; };
+		FF0A9E2A28478E7A004CEC37 /* SubwayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A9E2928478E7A004CEC37 /* SubwayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		FF0A9E162846EACB004CEC37 /* SeoulSubwayAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeoulSubwayAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0A9E1A2846EACB004CEC37 /* SeoulSubwayAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulSubwayAPIUITests.swift; sourceTree = "<group>"; };
 		FF0A9E1C2846EACB004CEC37 /* SeoulSubwayAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeoulSubwayAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FF0A9E2928478E7A004CEC37 /* SubwayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubwayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +103,6 @@
 				2C8E72A9EE68A4BA3622D1B2 /* Pods-SeoulSubwayAPITests.debug.xcconfig */,
 				B9EB965E834F9DA9D69D6F54 /* Pods-SeoulSubwayAPITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				FF0A9E022846EACB004CEC37 /* Assets.xcassets */,
 				FF0A9E042846EACB004CEC37 /* LaunchScreen.storyboard */,
 				FF0A9E072846EACB004CEC37 /* Info.plist */,
+				FF0A9E2928478E7A004CEC37 /* SubwayModel.swift */,
 			);
 			path = SeoulSubwayAPI;
 			sourceTree = "<group>";
@@ -407,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0A9E2A28478E7A004CEC37 /* SubwayModel.swift in Sources */,
 				FF0A9DFE2846EACA004CEC37 /* ViewController.swift in Sources */,
 				FF0A9DFA2846EACA004CEC37 /* AppDelegate.swift in Sources */,
 				FF0A9DFC2846EACA004CEC37 /* SceneDelegate.swift in Sources */,
